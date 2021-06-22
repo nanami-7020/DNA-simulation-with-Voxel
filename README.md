@@ -12,6 +12,8 @@
   - 各voxelにかける力の範囲（force）
   - 各voxelの大きさ（voxel_size）
   - 各voxelの初期位置（voxels）。今回はx座標だけ指定する。y座標とz座標はどちらも0。
+###　ファイルの置き方
+ダウンロードした[Voxelyze](https://github.com/jonhiller/Voxelyze)の中に、[VoxelDataGeneration.cpp](https://github.com/nanami-7020/DNA-simulation-with-Voxel/blob/master/VoxelDataGeneration.cpp)と[config.yaml](https://github.com/nanami-7020/DNA-simulation-with-Voxel/blob/master/config.yaml)を置きます。
 ### 実行方法
 - あらかじめ、[Voxelyze](https://github.com/jonhiller/Voxelyze)と[yaml-cpp](https://conan.io/center/yaml-cpp)と[pardiso](https://pardiso-project.org/download/ajan2018600bb6ex6hze7cv15/)をダウンロードする必要があります。  
 - 実行コマンドは以下の通りです。  
