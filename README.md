@@ -10,7 +10,8 @@
   - 座標を書き出すファイル名（output_file）
   - タイムステップ（sim_length）はいくつで、何回（repeats）実験を行うのか
   - 各voxelにかける力の範囲（force）
-
+  - 各voxelの大きさ（voxel_size）
+  - 各voxelの初期位置（voxels）。今回は$x$座標だけ指定する。$y$座標と$z$座標はどちらも0。
 ## Simulation Accuracy Analusis（シミュレーションの精度分析）
 - "Data Generation"で得たvoxelの座標ファイルを読み込み、可視化します。
 - さらに、持続長（以下、手順5を参照）を調べ、シミュレーションの精度を確認します。
