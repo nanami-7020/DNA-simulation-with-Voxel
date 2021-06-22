@@ -7,9 +7,9 @@
 - DNAの塩基を置き換えるために使用するvoxelの設定と、シミュレーションによって得られるvoxelの座標のファイルへの書き出しを行います。
 - メインソースコードは、[VoxelDataGenration.cpp](https://github.com/nanami-7020/DNA-simulation-with-Voxel/blob/master/VoxelDataGeneration.cpp)です。
 - [config.yaml]では、以下の条件を設定します。
-* 座標を書き出すファイル名（output_file）
-* タイムステップ（sim_length）はいくつで、何回（repeats）実験を行うのか
-* 各voxelにかける力の範囲（force）
+  - 座標を書き出すファイル名（output_file）
+  - タイムステップ（sim_length）はいくつで、何回（repeats）実験を行うのか
+  - 各voxelにかける力の範囲（force）
 
 ## Simulation Accuracy Analusis（シミュレーションの精度分析）
 - "Data Generation"で得たvoxelの座標ファイルを読み込み、可視化します。
