@@ -14,7 +14,7 @@
   - 各voxelの初期位置（voxels）。今回はx座標だけ指定する。y座標とz座標はどちらも0。
 ### 実行方法
 - あらかじめ、[Voxelyze](https://github.com/jonhiller/Voxelyze)と[yaml-cpp](https://conan.io/center/yaml-cpp)をダウンロードする必要があります。  
-- 実行コマンドは以下の通りです。
+- 実行コマンドは以下の通りです。  
 `$ g++ -o VoxelDataGenation VoxelDataGeneration.cpp  -std=c++11 -I./include -L./lib -L../yaml-cpp-yaml-cpp-0.6.0/build  -lvoxelyze.0.9 -lpardiso（ご自身に合わせたバージョン） -lyaml-cpp`
   
   
