@@ -17,7 +17,7 @@
 ### 実行方法
 - あらかじめ、[Voxelyze](https://github.com/jonhiller/Voxelyze)と[yaml-cpp](https://conan.io/center/yaml-cpp)と[pardiso](https://pardiso-project.org/download/ajan2018600bb6ex6hze7cv15/)をダウンロードする必要があります。  
 - 実行コマンドは以下の通りです。  
-`$ g++ -o VoxelDataGenation VoxelDataGeneration.cpp  -std=c++11 -I./include -L./lib -L../yaml-cpp-yaml-cpp-0.6.0/build  -lvoxelyze.0.9 -lpardiso（ご自身に合わせたバージョン） -lyaml-cpp`
+`$ g++ -o VoxelDataGenation VoxelDataGeneration.cpp  -std=c++11 -I./include -L./lib -L../yaml-cpp-yaml-cpp-0.6.0/build  -lvoxelyze.0.9 -lpardiso（ご自身のバージョン） -lyaml-cpp`
   
   
 ## Simulation Accuracy Analusis（シミュレーションの精度分析）
