@@ -5,6 +5,8 @@
 - この研究は、主に"Data generation"（データの生成）と"Simulation Accuracy Analysis"（シミュレーションの精度分析）に分かれています。
 ## Data generation（データの生成）
 - DNAの塩基を置き換えるために使用するvoxelの設定と、シミュレーションによって得られるvoxelの座標のファイルへの書き出しを行います。
+
+## Simulation Accuracy Analusis（シミュレーションの精度分析）
 - 以下、[simulation.ipynb](https://github.com/nanami-7020/DNA-simulation-with-Voxel/blob/master/simulation.ipynb)の大まかな流れです。
 1. モジュールのインストール。"vpython"を用いて、voxelを表示します。
 2. voxelと一緒に表示するキャプションの用意。
