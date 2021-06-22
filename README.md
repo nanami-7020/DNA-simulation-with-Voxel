@@ -1,4 +1,4 @@
-# DNA-simulation-with-Voxel
+# DNA-simulation-with-Voxel（voxelを用いたDNAのシミュレーション）
 - 研究で使用したテストコードです。
 - 研究テーマは、「voxelを用いたDNAのシミュレータ作成」です。
 - 塩基をvoxel（立体の単位格子）に置き換えることで、高速なDNAのシミュレーションを試みています。
