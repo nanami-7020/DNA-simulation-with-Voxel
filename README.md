@@ -5,13 +5,19 @@
 - この研究は、主に"Data generation"（データの生成）と"Simulation Accuracy Analysis"（シミュレーションの精度分析）に分かれています。
 ## Data Generation（データの生成）
 - DNAの塩基を置き換えるために使用するvoxelの設定と、シミュレーションによって得られるvoxelの座標のファイルへの書き出しを行います。
-- メインソースコードは、[VoxelDataGenration.cpp](https://github.com/nanami-7020/DNA-simulation-with-Voxel/blob/master/VoxelDataGeneration.cpp)です。
+- メインソースコードは、[VoxelDataGeneration.cpp](https://github.com/nanami-7020/DNA-simulation-with-Voxel/blob/master/VoxelDataGeneration.cpp)です。
 - [config.yaml](https://github.com/nanami-7020/DNA-simulation-with-Voxel/blob/master/config.yaml)では、以下の条件を設定します。
   - 座標を書き出すファイル名（output_file）
   - タイムステップ（sim_length）はいくつで、何回（repeats）実験を行うのか
   - 各voxelにかける力の範囲（force）
   - 各voxelの大きさ（voxel_size）
   - 各voxelの初期位置（voxels）。今回はx座標だけ指定する。y座標とz座標はどちらも0。
+### 実行方法
+- あらかじめ、[Voxelyze](https://github.com/jonhiller/Voxelyze)と[yaml-cpp](https://conan.io/center/yaml-cpp)をダウンロードする必要があります。  
+- 実行コマンドは以下の通りです。
+`$ g++ -o VoxelDataGenation VoxelDataGeneration.cpp  -std=c++11 -I./include -L./lib -L../yaml-cpp-yaml-cpp-0.6.0/build  -lvoxelyze.0.9 -lpardiso（ご自身に合わせたバージョン） -lyaml-cpp`
+  
+  
 ## Simulation Accuracy Analusis（シミュレーションの精度分析）
 - "Data Generation"で得たvoxelの座標ファイルを読み込み、可視化します。
 - さらに、持続長（以下、手順5を参照）を調べ、シミュレーションの精度を確認します。
