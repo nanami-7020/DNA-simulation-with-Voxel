@@ -1,12 +1,14 @@
-# DNA-simulation-with-Voxel（voxelを用いたDNAのシミュレーション）
+# DNA Simulation with Voxel（voxelを用いたDNAのシミュレーション）
 - 研究で使用したテストコードです。
 - 研究テーマは、「voxelを用いたDNAのシミュレータ作成」です。
 - 塩基をvoxel（立体の単位格子）に置き換えることで、高速なDNAのシミュレーションを試みています。
 - この研究は、主に"Data generation"（データの生成）と"Simulation Accuracy Analysis"（シミュレーションの精度分析）に分かれています。
-## Data generation（データの生成）
+## Data Generation（データの生成）
 - DNAの塩基を置き換えるために使用するvoxelの設定と、シミュレーションによって得られるvoxelの座標のファイルへの書き出しを行います。
 
 ## Simulation Accuracy Analusis（シミュレーションの精度分析）
+- "Data Generation"で得たvoxelの座標ファイルを読み込み、可視化します。
+- さらに、持続長（以下、手順5を参照）を調べ、シミュレーションの精度を確認します。
 - 以下、[simulation.ipynb](https://github.com/nanami-7020/DNA-simulation-with-Voxel/blob/master/simulation.ipynb)の大まかな流れです。
 1. モジュールのインストール。"vpython"を用いて、voxelを表示します。
 2. voxelと一緒に表示するキャプションの用意。
