@@ -20,7 +20,7 @@
 `$ g++ -o VoxelDataGenation VoxelDataGeneration.cpp  -std=c++11 -I./include -L./lib -L../yaml-cpp-yaml-cpp-0.6.0/build  -lvoxelyze.0.9 -lpardiso（ご自身のバージョン） -lyaml-cpp`
   
   
-## Simulation Accuracy Analusis（シミュレーションの精度分析）
+## Simulation Accuracy Analysis（シミュレーションの精度分析）
 - "Data Generation"で得たvoxelの座標ファイルを読み込み、可視化します。
 - さらに、持続長（以下、手順5を参照）を調べ、シミュレーションの精度を確認します。
 - 以下、[simulation.ipynb](https://github.com/nanami-7020/DNA-simulation-with-Voxel/blob/master/simulation.ipynb)の大まかな流れです。
